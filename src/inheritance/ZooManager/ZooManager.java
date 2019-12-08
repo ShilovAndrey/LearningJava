@@ -1,9 +1,10 @@
 package inheritance.ZooManager;
 
-import java.util.ArrayList;
+import java.util.ArrayList; // импортируем пакет для работы с классом ArrayList
 
 public class ZooManager {
-    private ArrayList<Animal> feedList = new ArrayList<>(); // у менеджера есть список животных, которых необходимо покормить
+    private ArrayList<Animal> feedList = new ArrayList<>(); // у менеджера есть список животных, которых
+                                                            // необходимо покормить
     private String name;
 
     public ZooManager(String name){ // у каждого менеджера зоопарка есть имя
@@ -39,7 +40,8 @@ public class ZooManager {
         if(feedList.isEmpty()){
             System.out.println("Список пуст");
         }else{
-            for (Animal v: feedList) { // в списке итерационно вызывается метод feed() для каждого животного индивидуально
+            for (Animal v: feedList) { // в списке итерационно вызывается метод feed() для каждого
+                                       // животного индивидуально
                 v.feed();
             }
         }
