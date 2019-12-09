@@ -37,7 +37,7 @@ public class CarTypeTest {
         }
     }
     private void loadCars(){
-        try {  // // обрабатываем IOException блоком try/catch
+        try {  // обрабатываем IOException блоком try/catch
             ObjectInputStream oi = new ObjectInputStream(new FileInputStream(file));
             CarType returnOne = (CarType) oi.readObject();
             CarType returnTwo= (CarType) oi.readObject();
