@@ -1,4 +1,4 @@
-package serialCarType;
+package serial.CarType;
 
 import java.io.*;
 
