@@ -18,6 +18,6 @@ public class SomeMathTest {
         calc.fillInList(figures);  // наполняем список псевдослучайными числами
         System.out.println(figures);
         int max = calc.maxNum(figures);  // вызываем метод для оределения наибольшего элемента в списке
-        System.out.println(max);
+        System.out.println(max); 
     }
 }
