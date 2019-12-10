@@ -57,7 +57,7 @@ public class Library {
 
 
     private void getBook() {
-        File file = new File("Список_книг.txt"); // указываем путь к файлу со списком книг
+        File file = new File("src/collections/Список_книг.txt"); // указываем путь к файлу со списком книг
         try{  // т.к. по указанному адресу файла может не оказаться, обрабатываем возможное IOException блоком try/catch
             BufferedReader reader = new BufferedReader (new FileReader(file)); //
             String line = null;
