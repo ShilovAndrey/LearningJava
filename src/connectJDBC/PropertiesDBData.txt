@@ -1,0 +1,5 @@
+
+dbUrl =jdbc:mysql://localhost/store
+dbUser = root
+dbPassword = root
+dbDriver =com.mysql.cj.jdbc.Driver
