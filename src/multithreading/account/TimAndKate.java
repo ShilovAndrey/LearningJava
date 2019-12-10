@@ -5,7 +5,7 @@ public class TimAndKate implements Runnable{
 
     public static void main(String[] args) {
         TimAndKate ram = new TimAndKate();
-        Thread one = new Thread(ram);  // создаем 2 потока с одной общей задачей Runnable.
+        Thread one = new Thread(ram);  // создаем 2 потока с одной общей задачей  Runnable.
         Thread two = new Thread(ram);
         one.setName("Tim");  // даем имена потокам
         two.setName("Kate");

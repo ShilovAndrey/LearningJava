@@ -2,7 +2,7 @@ package multithreading.account;
 
 public class Account {
 
-    private int balance = 150;  // баланс счета
+    private int balance = 150;  // баланс  счета
 
     public int getBalance() {
         return balance;
