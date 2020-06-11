@@ -1,11 +1,12 @@
 package io.Text;
-
 import java.io.*;
 
 public class Text {
+
+
     public static void main(String[] args) {
         File file = new File("Файл_для_текста.txt");  // файл указывает путь к файлу, но не представляет
-                                                                // сам файл
+        // сам файл
         try{  // обрабатываем исключение IOException блоком try/catch
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             bw.write("Какой цвет получится, если красный и синий?/фиолетовый");

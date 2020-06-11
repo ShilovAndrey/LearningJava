@@ -13,7 +13,7 @@ public class CoacherApp {
         coach.startCoacher();
     }
 
-    private static String getLine() {           // обрабатываем ввод пользователя
+    private static String getLine() {              // обрабатываем ввод пользователя
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
         return input;

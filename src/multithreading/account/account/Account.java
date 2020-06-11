@@ -1,4 +1,4 @@
-package multithreading.account;
+package multithreading.account.account;
 
 public class Account {
 
