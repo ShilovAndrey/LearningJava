@@ -10,7 +10,8 @@ public class Coacher {
     // переменные с наименованиями файлов по направлениям
     private String[] java = {"запись_извлечение_текста.txt", "многопоточность.txt", "подписка на событие.txt",
             "рекурсия.txt", "сериализация.txt", "создание массива.txt", "выбор_задания.txt",
-            "сортировка книг.txt", "подключение к JDBC.txt"};
+            "сортировка книг.txt", "подключение к JDBC.txt","xml_schema.txt",
+            "xml-документ DOM парсер.txt", "xml-документ создание.txt"};
     private String[] algorithms = {"1_OrderedArray.txt", "2_ClassDataApp.txt", "3_StackApp.txt", "4_BracketsApp.txt",
             "5_Queue.txt", "6_PriorityQueue.txt"};
     private String[] sql = {"1 create, insert.txt", "2 select,order.txt", "3 like, where IN.txt", "4 inner join.txt",
