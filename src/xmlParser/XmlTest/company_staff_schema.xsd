@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="company">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="company_name" type="xs:string"/>
+                <xs:element name="departments" type="departments"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="departments">
+        <xs:sequence>
+            <xs:element name="department" type="department" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="department">
+        <xs:sequence>
+            <xs:element name="employee" type="employee" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="dept_name">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="administration"/>
+                    <xs:enumeration value="IT"/>
+                    <xs:enumeration value="security"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="employee">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="age" type="xs:integer"/>
+            <xs:element name="gender" type="gender"/>
+            <xs:element name="salary" type="salary"/>
+        </xs:sequence>
+        <xs:attribute name="id_number" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:simpleType name="gender">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="m"/>
+            <xs:enumeration value="f"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="salary">
+        <xs:complexContent>
+            <xs:restriction base="xs:integer">
+                <xs:attribute name="currency">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="doll"/>
+                            <xs:enumeration value="euro"/>
+                            <xs:enumeration value="rub"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

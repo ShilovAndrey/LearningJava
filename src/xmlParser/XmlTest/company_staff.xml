@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<company xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:noNamespaceSchemaLocation="company_staff_schema.xsd">
+    <company_name>Shilov Industry</company_name>
+    <departments>
+        <department dept_name="administration">
+            <employee id_number="1">
+                <name>Shilov Andrey</name>
+                <age>32</age>
+                <gender>m</gender>
+                <salary currency="doll">20000</salary>
+            </employee>
+            <employee id_number="2">
+                <name>John Malic</name>
+                <age>35</age>
+                <gender>m</gender>
+                <salary currency="doll">20000</salary>
+            </employee>
+        </department>
+        <department dept_name="IT">
+            <employee id_number="3">
+                <name>Frank Prithard</name>
+                <age>43</age>
+                <gender>m</gender>
+                <salary currency="doll">10000</salary>
+            </employee>
+            <employee id_number="4">
+                <name>Stack Tokan</name>
+                <age>28</age>
+                <gender>m</gender>
+                <salary currency="doll">2000</salary>
+            </employee>
+            <employee id_number="7">
+                <name>Anna Adams</name>
+                <age>28</age>
+                <gender>f</gender>
+                <salary currency="doll">1500</salary>
+            </employee>
+        </department>
+        <department dept_name="security">
+            <employee id_number="5">
+                <name>Adam Jensen</name>
+                <age>41</age>
+                <gender>m</gender>
+                <salary currency="doll">10000</salary>
+            </employee>
+            <employee id_number="6">
+                <name>Nick Jons</name>
+                <age>31</age>
+                <gender>m</gender>
+                <salary currency="doll">2000</salary>
+            </employee>
+            <employee id_number="8">
+                <name>Lena Moon</name>
+                <age>32</age>
+                <gender>f</gender>
+                <salary currency="doll">2000</salary>
+            </employee>
+            <employee id_number="9">
+                <name>Dana Scaly</name>
+                <age>45</age>
+                <gender>f</gender>
+                <salary currency="doll">3500</salary>
+            </employee>
+        </department>
+    </departments>
+</company>
