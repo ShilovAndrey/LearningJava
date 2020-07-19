@@ -1,4 +1,4 @@
-package xmlParser.XmlTest;
+package xmlParser.XmlTest.xmlDomParser;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -22,7 +22,7 @@ import java.util.List;
 import static com.sun.org.apache.xerces.internal.jaxp.JAXPConstants.JAXP_SCHEMA_LANGUAGE;
 import static com.sun.org.apache.xerces.internal.jaxp.JAXPConstants.W3C_XML_SCHEMA;
 
-public class xmlTest {
+public class XmlDomParser {
     public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, IOException, SAXException {
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

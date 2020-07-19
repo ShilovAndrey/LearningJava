@@ -1,4 +1,4 @@
-package xmlParser.XmlTest;
+package xmlParser.XmlTest.xmlDomParser;
 
 public class Employee {
     private int id;
